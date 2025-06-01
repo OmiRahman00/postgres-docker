@@ -1,0 +1,2 @@
+create table products (pid serial primary key,name text, price float, inventory integer)
+create table sales (saleid serial primary key, pid integer, price float, quantity integer)
